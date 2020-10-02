@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/internet-shop/static/css/main.eea1d7ed.chunk.css",
+    "main.js": "/internet-shop/static/js/main.fa206280.chunk.js",
+    "main.js.map": "/internet-shop/static/js/main.fa206280.chunk.js.map",
+    "runtime-main.js": "/internet-shop/static/js/runtime-main.05c5a642.js",
+    "runtime-main.js.map": "/internet-shop/static/js/runtime-main.05c5a642.js.map",
+    "static/js/2.003952cc.chunk.js": "/internet-shop/static/js/2.003952cc.chunk.js",
+    "static/js/2.003952cc.chunk.js.map": "/internet-shop/static/js/2.003952cc.chunk.js.map",
+    "index.html": "/internet-shop/index.html",
+    "precache-manifest.ff49a141d2ead313564651a9b93fe955.js": "/internet-shop/precache-manifest.ff49a141d2ead313564651a9b93fe955.js",
+    "service-worker.js": "/internet-shop/service-worker.js",
+    "static/css/main.eea1d7ed.chunk.css.map": "/internet-shop/static/css/main.eea1d7ed.chunk.css.map",
+    "static/js/2.003952cc.chunk.js.LICENSE.txt": "/internet-shop/static/js/2.003952cc.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.05c5a642.js",
+    "static/js/2.003952cc.chunk.js",
+    "static/css/main.eea1d7ed.chunk.css",
+    "static/js/main.fa206280.chunk.js"
+  ]
+}
