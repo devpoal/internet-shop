@@ -1,0 +1,30 @@
+.header {
+	margin-bottom: 20px;
+	padding: 10px 0;
+	background-color: #00AB6F;
+	color: #fff;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 100px;
+	box-shadow: 5px 5px 10px rgba(0,0,0,.4);
+
+	h1 {
+		text-transform: uppercase;
+	}
+}
+
+.links {
+	margin-top: 20px;
+}
+
+.link {
+	display: inline-block;
+	padding: 10px;
+	color: cadetblue;
+	font-size: 20px;
+	&--active {
+		text-decoration: none;
+		pointer-events: none;
+	}
+}
