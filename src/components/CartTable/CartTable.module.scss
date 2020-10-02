@@ -48,3 +48,26 @@
 	margin-top: 20px;
 	font-size: 24px;
 }
+
+@media screen and (max-width: 768px) {
+	.wrap-cart {
+		max-width: 100%;
+		width: calc(100% - 40px);
+		margin: 20px;
+	}
+
+	.clear, .home {
+		display: block;
+		width: 100%;
+		text-align: center;
+	}
+
+	.cart {
+		display: block;
+	}
+
+	.cart-row,
+	.cart-cell {
+		display: none;
+	}
+}

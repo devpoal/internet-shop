@@ -14,9 +14,9 @@ const CartItem = ({ group, images, addGoods, removeGoods, removeTypeGoods }) => 
 
 	<div className={s['cart-cell']}>{group.item.name}</div>
 	<div className={s['cart-cell']}>{group.priceType.toFixed(2)}$</div>
-	<div className={s['cart-cell']}>{group.amount}</div>
+	<div className={s['cart-cell']}><span className={s['amount']}>Кол-во:</span>{group.amount}</div>
 
-	<div className={s['cart-cell']}>
+	<div className={cx(s['cart-cell'], s['cart-cell--controls'])}>
 		<div className={s['controls']}>
 			<button className={cx(s['button'], s['button--change'])} onClick={() => {addGoods(group.item)}}>+</button>
 			<button className={cx(s['button'], s['button--change'])} onClick={() => {removeGoods(group.item)}}>-</button>

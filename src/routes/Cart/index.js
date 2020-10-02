@@ -3,7 +3,7 @@ import Header from '../../components/Header';
 import CartTable from '../../components/CartTable';
 
 const Cart = () => (<div>
-	<Header />
+	<Header type={'cart'}/>
 	<CartTable />
 </div>);
 

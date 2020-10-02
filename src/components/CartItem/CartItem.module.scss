@@ -49,3 +49,41 @@
 		background-color: #20805E;
 	}
 }
+
+.amount {
+	display: none;
+}
+
+@media screen and (max-width: 768px) {
+	.wrap-image {
+		width: 60px;
+		height: 60px;
+		margin: 0 auto;
+	}
+
+	.cart-row {
+		display: flex;
+		flex-wrap: wrap;
+		align-items: center;
+		justify-content: center;
+		border-bottom: 1px solid #000;
+		padding-bottom: 10px;
+	}
+
+	.cart-cell {
+		display: block;
+		border-bottom: none;
+		text-align: center;
+
+		&--controls {
+			width: 100%;
+			display: block;
+			flex-shrink: 0;
+		}
+	}
+
+	.amount {
+		display: inline-block;
+		margin-right: 5px;
+	}
+}
