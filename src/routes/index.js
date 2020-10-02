@@ -8,7 +8,15 @@ const routes = [
 		component: Main
 	},
 	{
+		path: '/internet-shop',
+		component: Main
+	},
+	{
 		path: '/cart',
+		component: Cart
+	},
+	{
+		path: '/internet-shop/cart',
 		component: Cart
 	}
 ];
