@@ -5,7 +5,7 @@ import { connect } from 'react-redux';
 
 const Cart = ({ goodsCart }) => {
 	return (
-		<Link to="/cart" className={s['cart']}>
+		<Link to="/internet-shop/cart" className={s['cart']}>
             <span>Кол-во заказов: {goodsCart.length}</span>
             <span className={s['link']}>Перейти в корзину</span>
 		</Link>

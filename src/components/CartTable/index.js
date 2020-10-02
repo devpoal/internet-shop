@@ -25,7 +25,7 @@ const CartTable = ({ goodsCart, clearCart }) => {
 	});
 
 	return (<div className={s['wrap-cart']}>
-		<Link to="/" className={s['home']}>На главную</Link>
+		<Link to="/internet-shop/" className={s['home']}>На главную</Link>
 		{goodsCart.length > 0 && <button className={s['clear']} onClick={clearCart}>Очистить корзину</button>}
 
 		<div className={s['cart']}>
