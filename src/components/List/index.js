@@ -50,11 +50,11 @@ const List = ({ goods, dealers, setGoods, setImages }) => {
 	}, [goods, setImages]);
 
 	return (
-		<div>
+		<div className={s['wrapper']}>
 			{loading ?
-				<div>Загрузка...</div> :
+				<div className={s['loading']}>Загрузка...</div> :
 					!goodsList.length ? 
-						<div>Товаров нет</div> : <div className={s['list']}>
+						<div className={s['empty']}>Товаров нет</div> : <div className={s['list']}>
 							{goodsList.map(item => <GoodsItem key={item.idType} item={item} />)}
 						</div>}
 		</div>
